@@ -22,7 +22,7 @@ pod 'FFTopNotification'
 
 ## Author
 
-ferfrassia@gmail.com, ferfrassia@gmail.com
+Fer Frassia, ferfrassia@gmail.com
 
 ## License
 

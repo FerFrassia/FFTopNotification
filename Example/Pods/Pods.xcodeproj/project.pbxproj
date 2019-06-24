@@ -116,7 +116,6 @@
 		253AA9CCF20CD78B7D887C58ABF4FF2E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C1BEB4B722C134D300788F35 /* OpenSans-SemiBold.ttf */,
 				20164F27ECFE5AC770B320CB02EDA743 /* FFTopNotification.modulemap */,
 				07732725C413F3A20E194D96E5B6D4D4 /* FFTopNotification.xcconfig */,
 				85AF28DF9CF113087DAE918A358C980A /* FFTopNotification-dummy.m */,
@@ -183,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				C1BEB4B522C1307500788F35 /* FFTopNotification.swift */,
+				C1BEB4B722C134D300788F35 /* OpenSans-SemiBold.ttf */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
