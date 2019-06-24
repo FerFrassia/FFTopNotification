@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'FFTopNotification'
-    s.version          = '1.0.2'
+    s.version          = '1.0.3'
     s.summary          = 'An extension of UIView that provides an animated notification.'
     s.swift_version  = '5.0'
     
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     s.social_media_url = 'https://twitter.com/FerFrassia'
     
     s.platform = :ios, '11.0'
-    s.source_files = 'FFTopNotification/Classes/**/*'
+    s.source_files = 'FFTopNotification/Classes/*.{h,m,swift}'
     
     # s.resource_bundles = {
     #   'FFTopNotification' => ['FFTopNotification/Assets/*.png']
