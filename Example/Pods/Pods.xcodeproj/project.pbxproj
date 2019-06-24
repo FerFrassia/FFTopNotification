@@ -12,8 +12,11 @@
 		2BAEC0B2238DD90E10BC02A82952BC8C /* FFTopNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AF28DF9CF113087DAE918A358C980A /* FFTopNotification-dummy.m */; };
 		3DDD94D3D83831A899B105FD2C93D762 /* Pods-FFTopNotification_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A621A4299591B17E01164DAA24A94D3C /* Pods-FFTopNotification_Tests-dummy.m */; };
 		69184B04B7051E45E0C09860A6D2C7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		789520CF758B68E2D7B9BEC5FDBD8B63 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65192252B9D0329D57FD14D4BF578B /* ReplaceMe.swift */; };
 		BC94E5B4EF56A4D27C90F421C67A252B /* FFTopNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF4A2F26E0001D9B950011C67D48E7F /* FFTopNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1BEB4B622C1307500788F35 /* FFTopNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BEB4B522C1307500788F35 /* FFTopNotification.swift */; };
+		C1BEB4B822C134D300788F35 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1BEB4B722C134D300788F35 /* OpenSans-SemiBold.ttf */; };
+		C1BEB4B922C1351400788F35 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1BEB4B722C134D300788F35 /* OpenSans-SemiBold.ttf */; };
+		C1BEB4BA22C1351500788F35 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1BEB4B722C134D300788F35 /* OpenSans-SemiBold.ttf */; };
 		D43887E9853F2CF381AF5B3615E8DF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D48F420F0433DCA2D6BFE31B996D3907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E6D3C8FDD9E7E9875868D46167153C5C /* Pods-FFTopNotification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF5B986F9A7F8C656D0E66382D770A9 /* Pods-FFTopNotification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,34 +43,35 @@
 		07732725C413F3A20E194D96E5B6D4D4 /* FFTopNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFTopNotification.xcconfig; sourceTree = "<group>"; };
 		0BC7245A3F1BCAD3462052C4785E210F /* Pods-FFTopNotification_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFTopNotification_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1CA4410EEF0B893771028AA34FB49737 /* Pods-FFTopNotification_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFTopNotification_Tests.modulemap"; sourceTree = "<group>"; };
-		1CDA3F9517E38A1A24F46B5DD0D09294 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1CDA3F9517E38A1A24F46B5DD0D09294 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D208FC7CE849CCB65677FB227B65B53 /* Pods-FFTopNotification_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFTopNotification_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		20164F27ECFE5AC770B320CB02EDA743 /* FFTopNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFTopNotification.modulemap; sourceTree = "<group>"; };
-		2A987AE7B6EBEEADC9C7C243F10A2929 /* FFTopNotification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFTopNotification.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A987AE7B6EBEEADC9C7C243F10A2929 /* FFTopNotification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FFTopNotification.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		327A12E6199E079205D58BAE0122BFBF /* Pods-FFTopNotification_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFTopNotification_Example-frameworks.sh"; sourceTree = "<group>"; };
 		38ABE4D2628BC241DFC117B0B64C8D80 /* Pods-FFTopNotification_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFTopNotification_Example.release.xcconfig"; sourceTree = "<group>"; };
 		454D262D0CA57F12E4E6C3569AD81BF8 /* Pods-FFTopNotification_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFTopNotification_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E8B07E6A2111F20B3001A00B32C54AF /* Pods_FFTopNotification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFTopNotification_Tests.framework; path = "Pods-FFTopNotification_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8B07E6A2111F20B3001A00B32C54AF /* Pods_FFTopNotification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFTopNotification_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAB4077F39F9AFE01B65DD7E6629E8C /* FFTopNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFTopNotification-prefix.pch"; sourceTree = "<group>"; };
-		4F65192252B9D0329D57FD14D4BF578B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FFTopNotification/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		53D47094FDF76C5364211C7337A62910 /* Pods-FFTopNotification_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFTopNotification_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5488928B6E28BF8E2DBA7ABED30AC443 /* Pods-FFTopNotification_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFTopNotification_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FF4A2F26E0001D9B950011C67D48E7F /* FFTopNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFTopNotification-umbrella.h"; sourceTree = "<group>"; };
-		79B3DDF416A54F4EA2FD3B74D6919542 /* Pods_FFTopNotification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFTopNotification_Example.framework; path = "Pods-FFTopNotification_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B3DDF416A54F4EA2FD3B74D6919542 /* Pods_FFTopNotification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFTopNotification_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85AF28DF9CF113087DAE918A358C980A /* FFTopNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFTopNotification-dummy.m"; sourceTree = "<group>"; };
 		889EF69E0D90ECE4584278E1B0D5284C /* Pods-FFTopNotification_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFTopNotification_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A621A4299591B17E01164DAA24A94D3C /* Pods-FFTopNotification_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFTopNotification_Tests-dummy.m"; sourceTree = "<group>"; };
 		AAF5B986F9A7F8C656D0E66382D770A9 /* Pods-FFTopNotification_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFTopNotification_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B1408EDA5E32E3B9ED6B2D3062861726 /* Pods-FFTopNotification_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFTopNotification_Example.modulemap"; sourceTree = "<group>"; };
+		C1BEB4B522C1307500788F35 /* FFTopNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTopNotification.swift; sourceTree = "<group>"; };
+		C1BEB4B722C134D300788F35 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		C964381744764DEC5651BD3E4FA3DDDC /* Pods-FFTopNotification_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFTopNotification_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CA3E9A4FD6E2048849DAB698E1F6316E /* FFTopNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFTopNotification.framework; path = FFTopNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3E9A4FD6E2048849DAB698E1F6316E /* FFTopNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFTopNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D044E5CE7395AC77440C3FF43808A93D /* Pods-FFTopNotification_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFTopNotification_Example-dummy.m"; sourceTree = "<group>"; };
 		E1248E0D69003D4639FEA48F8014EAD2 /* FFTopNotification-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFTopNotification-Info.plist"; sourceTree = "<group>"; };
 		E60ACFEA26B932444C1EEB227847E3B2 /* Pods-FFTopNotification_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFTopNotification_Example-Info.plist"; sourceTree = "<group>"; };
 		EF4E0DEC41A38DA092C82AB1E80AC8F7 /* Pods-FFTopNotification_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFTopNotification_Tests-Info.plist"; sourceTree = "<group>"; };
-		F42EFAD537CB7E57893D7BDF3A061B97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F42EFAD537CB7E57893D7BDF3A061B97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FD51B3FEF28355404A366C561EE1FC5C /* Pods-FFTopNotification_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFTopNotification_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +116,7 @@
 		253AA9CCF20CD78B7D887C58ABF4FF2E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				C1BEB4B722C134D300788F35 /* OpenSans-SemiBold.ttf */,
 				20164F27ECFE5AC770B320CB02EDA743 /* FFTopNotification.modulemap */,
 				07732725C413F3A20E194D96E5B6D4D4 /* FFTopNotification.xcconfig */,
 				85AF28DF9CF113087DAE918A358C980A /* FFTopNotification-dummy.m */,
@@ -174,6 +179,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C1BEB4B022C12FF600788F35 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1BEB4B522C1307500788F35 /* FFTopNotification.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -213,7 +226,7 @@
 		FECCE7D08B8F950BBC1EC107CF67140C /* FFTopNotification */ = {
 			isa = PBXGroup;
 			children = (
-				4F65192252B9D0329D57FD14D4BF578B /* ReplaceMe.swift */,
+				C1BEB4B022C12FF600788F35 /* Classes */,
 				A90C1A4C467C66E121E793238DB84DFA /* Pod */,
 				253AA9CCF20CD78B7D887C58ABF4FF2E /* Support Files */,
 			);
@@ -315,6 +328,17 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					1B88D997CF06D4E22B9B211D261A7A02 = {
+						LastSwiftMigration = 1020;
+					};
+					B070028EAA002231597D142F74D71DBB = {
+						LastSwiftMigration = 1020;
+					};
+					C443F1E87549D21C9CA7A78DFA6170AC = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -340,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BEB4B922C1351400788F35 /* OpenSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BEB4B822C134D300788F35 /* OpenSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BEB4BA22C1351500788F35 /* OpenSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +399,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BEB4B622C1307500788F35 /* FFTopNotification.swift in Sources */,
 				2BAEC0B2238DD90E10BC02A82952BC8C /* FFTopNotification-dummy.m in Sources */,
-				789520CF758B68E2D7B9BEC5FDBD8B63 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07732725C413F3A20E194D96E5B6D4D4 /* FFTopNotification.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -427,7 +455,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -439,6 +468,7 @@
 			baseConfigurationReference = 1D208FC7CE849CCB65677FB227B65B53 /* Pods-FFTopNotification_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -461,6 +491,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -471,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07732725C413F3A20E194D96E5B6D4D4 /* FFTopNotification.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -491,7 +524,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -552,8 +585,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -628,6 +660,7 @@
 			baseConfigurationReference = 5488928B6E28BF8E2DBA7ABED30AC443 /* Pods-FFTopNotification_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -650,6 +683,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -661,6 +696,7 @@
 			baseConfigurationReference = C964381744764DEC5651BD3E4FA3DDDC /* Pods-FFTopNotification_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -683,6 +719,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -695,6 +732,7 @@
 			baseConfigurationReference = 38ABE4D2628BC241DFC117B0B64C8D80 /* Pods-FFTopNotification_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -717,6 +755,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
