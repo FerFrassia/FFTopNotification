@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'FFTopNotification'
-    s.version          = 'v1.0'
+    s.version          = 'v1.0.1'
     s.summary          = 'An extension of UIView that provides an animated notification.'
     s.swift_version  = '5.0'
     
