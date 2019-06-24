@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFTopNotification_Example' do
+  pod 'FFTopNotification', :path => '../'
+
+  target 'FFTopNotification_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
