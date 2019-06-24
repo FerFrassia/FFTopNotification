@@ -1,0 +1,6 @@
+framework module Pods_FFTopNotification_Example {
+  umbrella header "Pods-FFTopNotification_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

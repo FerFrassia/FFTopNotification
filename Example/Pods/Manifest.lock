@@ -1,0 +1,16 @@
+PODS:
+  - FFTopNotification (0.1.0)
+
+DEPENDENCIES:
+  - FFTopNotification (from `../`)
+
+EXTERNAL SOURCES:
+  FFTopNotification:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFTopNotification: e242701230cad7b0d4e2256a7d41b1dabe4c076f
+
+PODFILE CHECKSUM: 586c93a153476b5616b97278b33f997785e77fca
+
+COCOAPODS: 1.7.2

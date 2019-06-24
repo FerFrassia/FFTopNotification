@@ -1,0 +1,22 @@
+{
+  "name": "FFTopNotification",
+  "version": "0.1.0",
+  "summary": "A short description of FFTopNotification.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ferfrassia@gmail.com/FFTopNotification",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ferfrassia@gmail.com": "ferfrassia@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ferfrassia@gmail.com/FFTopNotification.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFTopNotification/Classes/**/*"
+}
