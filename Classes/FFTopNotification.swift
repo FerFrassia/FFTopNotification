@@ -8,16 +8,23 @@
 import UIKit
 
 extension UIView {
-    public typealias CompletionHandler = () -> Void
+    public typealias FFCompletionHandler = () -> Void
     
-    public func displayNotification(text: String, font:UIFont = UIFont(name: "OpenSans-SemiBold", size: 14)!, textColor: UIColor = .white, backgroundColor: UIColor = UIColor(red: (254.0/255.0), green: (75.0/255.0), blue: (76.0/255.0), alpha: 1), completion: CompletionHandler? = nil) {
+    public func displayNotification(text: String, type: FFNotification, completion: FFCompletionHandler? = nil) {
+        let font = UIFont(name: "OpenSans-SemiBold", size: 14)!
+        let textColor = UIColor.white
+        
+        displayCustomNotification(text: text, font: font, textColor: textColor, backgroundColor: type.color, completion: completion)
+    }
+    
+    public func displayCustomNotification(text: String, font: UIFont, textColor: UIColor, backgroundColor: UIColor, completion: FFCompletionHandler? = nil) {
         //notificationView
         let topView = createTopView()
         let notificationView = createNotificationView(color: backgroundColor, under: topView)
         
         //label
         addLabelToNotificationView(notificationView: notificationView, text: text, font: font, textColor: textColor)
-
+        
         //animate
         layoutIfNeeded()
         animate(notificationView: notificationView, topView: topView, completion: completion)
@@ -75,7 +82,7 @@ extension UIView {
         textLbl.trailingAnchor.constraint(equalTo: notificationView.trailingAnchor).isActive = true
     }
     
-    private func animate(notificationView: UIView, topView: UIView, completion: CompletionHandler?) {
+    private func animate(notificationView: UIView, topView: UIView, completion: FFCompletionHandler?) {
         let notificationHeight = notificationView.frame.size.height
         UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
             let oldY = notificationView.frame.origin.y
@@ -84,7 +91,7 @@ extension UIView {
                                             width: notificationView.frame.size.width,
                                             height: notificationView.frame.size.height)
         }) { (finished) in
-            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseIn, animations: {
+            UIView.animate(withDuration: 0.5, delay: 0.7, options: .curveEaseIn, animations: {
                 let oldY = notificationView.frame.origin.y
                 notificationView.frame = CGRect(x: notificationView.frame.origin.x,
                                                 y: oldY-notificationHeight,

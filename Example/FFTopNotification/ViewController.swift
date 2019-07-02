@@ -11,8 +11,16 @@ import FFTopNotification
 
 class ViewController: UIViewController {
 
-    @IBAction func animateAction(_ sender: Any) {
-        view?.displayNotification(text: "No internet connection")
+    @IBAction func successAction(_ sender: Any) {
+        view?.displayNotification(text: "Success message", type: .success)
+    }
+    
+    @IBAction func failureAction(_ sender: Any) {
+        view?.displayNotification(text: "Failure message", type: .failure)
+    }
+    
+    @IBAction func warningAction(_ sender: Any) {
+        view?.displayNotification(text: "Warning message", type: .warning)
     }
 
 }
