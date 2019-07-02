@@ -6,7 +6,7 @@ osx_image: xcode10.2
 language: swift
 xcode_project: FFTopNotification.xcworkspace
 xcode_scheme: FFTopNotification-Example
-xcode_sdk: iphonesimulator10.1
+xcode_sdk: iphonesimulator8.4
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
