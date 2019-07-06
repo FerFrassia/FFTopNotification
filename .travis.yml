@@ -1,6 +1,6 @@
 os: osx
 osx_image: xcode9.4
 language: swift
-xcode_project: Example/FFTopNotification.xcworkspace
+xcode_workspace: Example/FFTopNotification.xcworkspace
 xcode_scheme: FFTopNotification_Tests
 xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X"
