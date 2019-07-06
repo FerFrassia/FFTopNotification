@@ -4,3 +4,7 @@ language: swift
 xcode_workspace: Example/FFTopNotification.xcworkspace
 xcode_scheme: FFTopNotification_Tests
 xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
+env:
+  global:
+    - ONLY_ACTIVE_ARCH=NO
+    - SWIFT_VERSION=4.1.2
