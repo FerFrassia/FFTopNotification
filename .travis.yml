@@ -8,3 +8,6 @@ env:
   global:
     - ONLY_ACTIVE_ARCH=NO
     - SWIFT_VERSION=5.0.1
+script:
+  - swift --version
+  - swift package update
