@@ -2,7 +2,6 @@ language: swift
 osx_image: xcode11.0
 before_install: 
   - gem install bundler
-  - pod install
 xcode_workspace: Example/FFTopNotification.xcworkspace
 xcode_scheme: FFTopNotification_Tests
 xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
