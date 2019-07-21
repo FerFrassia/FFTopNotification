@@ -11,7 +11,8 @@ extension UIView {
     public typealias FFCompletionHandler = () -> Void
     
     public func displayNotification(text: String, type: FFNotification, completion: FFCompletionHandler? = nil) {
-        let font = UIFont(name: "OpenSans-SemiBold", size: 14)!
+//        let font = UIFont(name: "OpenSans-SemiBold", size: 14)!
+        let font = UIFont.systemFont(ofSize: 14)
         let textColor = UIColor.white
         
         displayCustomNotification(text: text, font: font, textColor: textColor, backgroundColor: type.color, completion: completion)
