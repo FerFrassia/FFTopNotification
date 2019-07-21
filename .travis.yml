@@ -1,5 +1,5 @@
 language: swift
-osx_image: xcode11.0
+osx_image: xcode11
 before_install: 
   - gem install bundler
 xcode_workspace: Example/FFTopNotification.xcworkspace
